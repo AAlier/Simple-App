@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/size_20"
+    android:paddingLeft="@dimen/size_8"
+    android:paddingBottom="@dimen/size_4"
+    android:paddingTop="@dimen/size_10"
+    android:background="@color/white">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_2"
+        android:background="@color/grey_500" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/messageLayout"
+        android:contentDescription="@string/app_name"
+        tools:src="@drawable/ic_feedback" />
+
+    <LinearLayout
+        android:id="@+id/messageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:orientation="vertical"
+        android:padding="@dimen/size_8">
+
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_text_size"
+            android:textStyle="bold"
+            tools:text="This is title" />
+
+        <TextView
+            android:id="@+id/emailView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_text_size"
+            android:textStyle="bold|italic"
+            tools:text="This is title" />
+
+        <TextView
+            android:id="@+id/bodyView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_bg_incoming_bubble"
+            android:padding="@dimen/size_6"
+            tools:text="This is the description of the view and this is next line" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

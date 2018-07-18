@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">O</string>
+    <string name="request_setting_permissions">Вы отключили некоторые разрешения, включите их в настройках</string>
+    <string name="error_network">Ошибка подключения к интернету.</string>
+    <string name="error_response">Произошла ошибка.</string>
+    <string name="loading">Loading...</string>
+    <string name="comments">Комментарии</string>
+    <string name="error_weather">Ошибка загрузки данных погоды</string>
+    <string name="error_select_first">Сначало надо выбрать 10 элементов</string>
+
+</resources>
