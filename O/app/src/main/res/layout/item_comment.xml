@@ -3,11 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingRight="@dimen/size_20"
+    android:background="@color/white"
     android:paddingLeft="@dimen/size_8"
-    android:paddingBottom="@dimen/size_4"
-    android:paddingTop="@dimen/size_10"
-    android:background="@color/white">
+    android:paddingRight="@dimen/size_20"
+    android:paddingTop="@dimen/size_10">
 
     <View
         android:layout_width="match_parent"
